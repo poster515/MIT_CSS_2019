@@ -3,7 +3,7 @@
 #   the outgoing tank volumetric flow rate in gallons/hr
 
 def update_L(before, after, delta_t):
-    
+
     L_current = before[-1: K_LEVEL]
     m_dot1 = before[-1:K_FLOW_IN]
     m_dot2 = before[-1:K_FLOW_OUT]
